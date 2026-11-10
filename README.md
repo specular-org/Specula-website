@@ -10,3 +10,6 @@ stores any manual theme choice locally in the browser.
 
 The permanent community entry is `https://specula.info/slack/`. When the Slack
 invitation is renewed or replaced, update its target only in `slack/index.html`.
+
+The permanent bug list entry is `https://specula.info/bugs/`. When the bug list
+moves, update its target only in `bugs/index.html`.

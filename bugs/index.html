@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="theme-color" content="#050d16" />
+    <meta
+      http-equiv="refresh"
+      content="0; url=https://docs.google.com/spreadsheets/d/1AVXdKjNfD4952hZqyB-_wTdrzeTw0SD73f3F0zWJ0as/edit?gid=996176958#gid=996176958"
+    />
+    <link rel="canonical" href="https://specula.info/bugs/" />
+    <link rel="icon" href="../assets/favicon.png" type="image/png" />
+    <title>Bugs found by Specula</title>
+    <script>
+      (() => {
+        let savedTheme = null;
+        try {
+          savedTheme = localStorage.getItem("specula-theme");
+        } catch (_) {}
+
+        document.documentElement.dataset.theme =
+          savedTheme === "light" || savedTheme === "dark"
+            ? savedTheme
+            : window.matchMedia?.("(prefers-color-scheme: dark)").matches
+              ? "dark"
+              : "light";
+
+        window.location.replace(
+          "https://docs.google.com/spreadsheets/d/1AVXdKjNfD4952hZqyB-_wTdrzeTw0SD73f3F0zWJ0as/edit?gid=996176958#gid=996176958",
+        );
+      })();
+    </script>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body class="redirect-page">
+    <main class="slack-redirect">
+      <a class="brand" href="../" aria-label="Specula home">
+        <img src="../assets/specula-wordmark.webp" alt="Specula" width="287" height="127" />
+      </a>
+      <section class="slack-redirect-card" aria-labelledby="bugs-title">
+        <p class="eyebrow"><span></span> Bug List</p>
+        <h1 id="bugs-title">Bugs found by Specula</h1>
+        <p>You are being redirected to the live Specula bug list.</p>
+        <a class="button button-primary" href="https://docs.google.com/spreadsheets/d/1AVXdKjNfD4952hZqyB-_wTdrzeTw0SD73f3F0zWJ0as/edit?gid=996176958#gid=996176958">
+          Continue to Bug List <span aria-hidden="true">→</span>
+        </a>
+      </section>
+    </main>
+  </body>
+</html>
