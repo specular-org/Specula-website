@@ -1,6 +1,6 @@
-# Specula website
+# Specular website
 
-Official website for [Specula](https://github.com/specula-org/Specula), an
+Official website for [Specular](https://github.com/specular-org/Specular), an
 open-source workflow for finding and reproducing deep bugs in concurrent and
 distributed systems with coding agents and TLA+.
 

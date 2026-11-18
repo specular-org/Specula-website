@@ -3,8 +3,8 @@
 These product and provider marks are used only to identify supported agents and
 recommended model families.
 
-- `claude.svg`: Claude mark, shared from `specula-org/SysMoBench-website`.
-- `openai.svg`: OpenAI mark, shared from `specula-org/SysMoBench-website`.
+- `claude.svg`: Claude mark, shared from `specular-org/SysMoBench-website`.
+- `openai.svg`: OpenAI mark, shared from `specular-org/SysMoBench-website`.
 - `github-copilot.svg`: GitHub Copilot icon from GitHub's official
   `primer/octicons` repository.
 - `opencode.png`: OpenCode favicon from `https://opencode.ai/`.

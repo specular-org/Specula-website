@@ -125,10 +125,10 @@
 
       if (!isRun) {
         command.textContent = [
-          "git clone https://github.com/specula-org/Specula.git",
-          "cd Specula",
+          "git clone https://github.com/specular-org/Specular.git",
+          "cd Specular",
           "uv tool install -e .",
-          "specula setup",
+          "specular setup",
         ].join("\n");
         return;
       }
@@ -138,7 +138,7 @@
       if (source === "keep") options.push("--keep-original");
       options.push("--artifact=/path/to/repo");
       command.textContent = [
-        "specula run mysys \\",
+        "specular run mysys \\",
         ...options.map(
           (option, index) =>
             `  ${option}${index === options.length - 1 ? "" : " \\"}`,
@@ -147,7 +147,7 @@
       sourceHelp.textContent =
         source === "keep"
           ? "Keeps the original repository untouched and saves changes to changes.patch."
-          : "Specula works in the selected repository and may modify its files.";
+          : "Specular works in the selected repository and may modify its files.";
     };
 
     modeButtons.forEach((button) => {
